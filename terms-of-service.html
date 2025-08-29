@@ -3,55 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hizmet Şartları - Adorb AI Agent Project</title>
+    <title>Hizmet Şartları - AdOrb WhatsApp Randevu Botu</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
+            color: #333;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f8f9fa;
         }
         .container {
-            background-color: white;
+            background: white;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #2c3e50;
             border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
+            margin-bottom: 30px;
         }
         h2 {
             color: #34495e;
             margin-top: 30px;
-        }
-        .update-date {
-            background-color: #ecf0f1;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 30px;
-        }
-        .contact-info {
-            background-color: #e8f6ff;
-            padding: 20px;
-            border-radius: 5px;
+            margin-bottom: 15px;
+            padding-left: 15px;
             border-left: 4px solid #3498db;
         }
-        .important-note {
-            background-color: #fff3cd;
+        .section {
+            margin-bottom: 25px;
             padding: 15px;
-            border-radius: 5px;
-            border-left: 4px solid #ffc107;
-            margin: 20px 0;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        .contact-info {
+            background-color: #e8f5e8;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .date {
+            color: #6c757d;
+            font-style: italic;
+            text-align: right;
+            margin-top: 30px;
         }
         ul {
-            margin: 15px 0;
+            padding-left: 25px;
         }
         li {
-            margin: 8px 0;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -59,117 +64,102 @@
     <div class="container">
         <h1>Hizmet Şartları</h1>
         
-        <div class="update-date">
-            <strong>Son Güncelleme:</strong> 29 Ağustos 2025<br>
-            <strong>Yürürlük Tarihi:</strong> 29 Ağustos 2025
+        <div class="section">
+            <h2>1. Hizmet Tanımı</h2>
+            <p>AdOrb WhatsApp Randevu Botu, işletmelerin WhatsApp üzerinden müşterileriyle iletişim kurmasını ve randevu yönetimini kolaylaştıran bir hizmettir.</p>
         </div>
 
-        <h2>1. Hizmet Tanımı</h2>
-        <p><strong>Adorb AI Agent Project</strong>, WhatsApp Business API kullanarak otomatik randevu yönetimi ve müşteri hizmetleri sunan bir platformdur. Bu hizmet şartları, platformumuzu kullanırken uymanız gereken kuralları ve koşulları belirler.</p>
-
-        <h2>2. Kabul ve Onay</h2>
-        <p>Hizmetimizi kullanarak, bu hizmet şartlarını tamamen okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Bu şartları kabul etmiyorsanız, lütfen hizmetimizi kullanmayın.</p>
-
-        <h2>3. Hizmet Kapsamı</h2>
-        <p>Platform aşağıdaki hizmetleri sunar:</p>
-        <ul>
-            <li>WhatsApp üzerinden otomatik randevu alma</li>
-            <li>Randevu yönetimi ve organizasyonu</li>
-            <li>Müşteri iletişimi ve destek</li>
-            <li>Otomatik hatırlatma mesajları</li>
-            <li>Admin panel üzerinden yönetim araçları</li>
-        </ul>
-
-        <h2>4. Kullanıcı Sorumlulukları</h2>
-        <p>Hizmetimizi kullanırken:</p>
-        <ul>
-            <li>Doğru ve güncel bilgiler sağlamalısınız</li>
-            <li>Yasal kurallara uygun davranmalısınız</li>
-            <li>Diğer kullanıcıların haklarına saygı göstermelisiniz</li>
-            <li>Sistemi kötüye kullanmamalısınız</li>
-            <li>Spam veya zararlı içerik göndermemelisiniz</li>
-        </ul>
-
-        <h2>5. Yasak Faaliyetler</h2>
-        <p>Aşağıdaki faaliyetler kesinlikle yasaktır:</p>
-        <ul>
-            <li>Sahte veya yanıltıcı bilgi sağlamak</li>
-            <li>Sisteme zarar vermeye çalışmak</li>
-            <li>Diğer kullanıcıları rahatsız etmek</li>
-            <li>Telif hakkı ihlali yapmak</li>
-            <li>Yasal olmayan içerik paylaşmak</li>
-        </ul>
-
-        <h2>6. Hizmet Kullanılabilirliği</h2>
-        <p>Hizmetimizin kesintisiz olması için elimizden geleni yaparız, ancak:</p>
-        <ul>
-            <li>%100 kesintisiz hizmet garantisi vermeyiz</li>
-            <li>Bakım ve güncelleme zamanları olabilir</li>
-            <li>Teknik sorunlar yaşanabilir</li>
-            <li>WhatsApp API'sına bağımlı olduğumuz için onların kesintilerinden etkilenebiliriz</li>
-        </ul>
-
-        <div class="important-note">
-            <strong>Önemli Not:</strong> Hizmetimiz WhatsApp Business API'sını kullanmaktadır. WhatsApp'ın politika değişiklikleri hizmet sunumumuzu etkileyebilir.
+        <div class="section">
+            <h2>2. Hizmet Kapsamı</h2>
+            <ul>
+                <li>WhatsApp Business API entegrasyonu</li>
+                <li>Otomatik mesaj yanıtlama sistemi</li>
+                <li>Randevu planlama ve yönetimi</li>
+                <li>Müşteri iletişim geçmişi saklama</li>
+                <li>Yönetici paneli ve raporlama</li>
+            </ul>
         </div>
 
-        <h2>7. Fikri Mülkiyet</h2>
-        <p>Platform ve içeriği bizim fikri mülkiyetimizdir. Kullanıcılar:</p>
-        <ul>
-            <li>Platformu kişisel kullanım için kullanabilir</li>
-            <li>İçeriği izinsiz kopyalayamaz</li>
-            <li>Ticari amaçla kullanamaz (izin alınmadıkça)</li>
-            <li>Kaynak kodlarına erişemez</li>
-        </ul>
+        <div class="section">
+            <h2>3. Kullanım Koşulları</h2>
+            <ul>
+                <li>Hizmet, yalnızca yasal amaçlar için kullanılmalıdır</li>
+                <li>Spam mesaj gönderimi yasaktır</li>
+                <li>Müşteri verilerinin güvenliği kullanıcının sorumluluğundadır</li>
+                <li>Hizmet kesintilerine karşı yedekleme önerilir</li>
+                <li>WhatsApp Business API kullanım koşullarına uyulmalıdır</li>
+            </ul>
+        </div>
 
-        <h2>8. Gizlilik ve Veri Koruma</h2>
-        <p>Kişisel verilerinizin korunması konusundaki detaylar <a href="privacy-policy.html">Gizlilik Politikamız</a>da açıklanmıştır. Bu hizmet şartlarını kabul ederek, gizlilik politikamızı da kabul etmiş olursunuz.</p>
+        <div class="section">
+            <h2>4. Veri İşleme ve Güvenlik</h2>
+            <ul>
+                <li>Müşteri mesajları ve randevu bilgileri güvenli şekilde saklanır</li>
+                <li>Veriler yalnızca hizmet sağlama amacıyla işlenir</li>
+                <li>Kişisel veriler üçüncü taraflarla paylaşılmaz</li>
+                <li>KVKK ve GDPR düzenlemelerine uygun hareket edilir</li>
+            </ul>
+        </div>
 
-        <h2>9. Hizmet Değişiklikleri</h2>
-        <p>Hizmetimizde yapacağımız değişiklikler:</p>
-        <ul>
-            <li>Önceden duyurulacaktır</li>
-            <li>Kullanıcıları olumsuz etkilememesi için çaba harcanacaktır</li>
-            <li>Büyük değişiklikler için geçiş süresi tanınacaktır</li>
-            <li>Kullanıcı geri bildirimleri dikkate alınacaktır</li>
-        </ul>
+        <div class="section">
+            <h2>5. Kullanıcı Sorumlulukları</h2>
+            <ul>
+                <li>Hesap bilgilerinin güvenliğini sağlamak</li>
+                <li>Yasal düzenlemelere uygun kullanım</li>
+                <li>Müşteri onayı alınmadan mesaj gönderilmemesi</li>
+                <li>Hizmet şartlarında yapılan değişiklikleri takip etmek</li>
+            </ul>
+        </div>
 
-        <h2>10. Hesap Sonlandırma</h2>
-        <p>Aşağıdaki durumlarda hesabınız sonlandırılabilir:</p>
-        <ul>
-            <li>Hizmet şartlarının ihlali</li>
-            <li>Yasadışı faaliyetler</li>
-            <li>Diğer kullanıcıları rahatsız etme</li>
-            <li>Sistemi kötüye kullanma</li>
-        </ul>
+        <div class="section">
+            <h2>6. Hizmet Kesintileri</h2>
+            <p>Bakım, güncelleme veya teknik sorunlar nedeniyle hizmet kesintileri yaşanabilir. Bu durumlar önceden bildirilmeye çalışılır ve mümkün olan en kısa sürede çözümlenir.</p>
+        </div>
 
-        <h2>11. Sorumluluk Sınırlaması</h2>
-        <p>Hizmetimizi kullanırken oluşabilecek zararlardan sorumluluğumuz sınırlıdır. Özellikle:</p>
-        <ul>
-            <li>Dolaylı zararlardan sorumlu değiliz</li>
-            <li>İş kaybı veya kar kaybından sorumlu değiliz</li>
-            <li>Üçüncü taraf hizmetlerinden kaynaklanan sorunlardan sorumlu değiliz</li>
-            <li>Veri kaybından sorumluluğumuz sınırlıdır</li>
-        </ul>
+        <div class="section">
+            <h2>7. Ücretlendirme ve İptal</h2>
+            <ul>
+                <li>Hizmet ücreti aylık olarak tahsil edilir</li>
+                <li>İptal işlemi 30 gün öncesinden bildirilmelidir</li>
+                <li>İptal sonrası veriler 90 gün süreyle saklanır</li>
+                <li>Ödeme yapılmayan hesaplar askıya alınabilir</li>
+            </ul>
+        </div>
 
-        <h2>12. Uygulanacak Hukuk</h2>
-        <p>Bu hizmet şartları Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklar Türkiye mahkemelerinde çözülecektir.</p>
+        <div class="section">
+            <h2>8. Sorumluluk Sınırları</h2>
+            <ul>
+                <li>Hizmet kesintilerinden doğan zararlardan sorumluluk kabul edilmez</li>
+                <li>WhatsApp API değişikliklerinden kaynaklanan sorunlar hizmet kapsamı dışındadır</li>
+                <li>Kullanıcının yanlış kullanımından doğan sorunlardan sorumlu değiliz</li>
+            </ul>
+        </div>
 
-        <h2>13. Değişiklikler</h2>
-        <p>Bu hizmet şartları gerektiğinde güncellenebilir. Değişiklikler bu sayfada yayınlanır ve kullanıcılara bildirilir.</p>
+        <div class="section">
+            <h2>9. Fikri Mülkiyet</h2>
+            <p>Bu hizmetin yazılımı, tasarımı ve içeriği AdOrb'un fikri mülkiyetidir. İzinsiz kullanım, kopyalama veya dağıtım yasaktır.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Değişiklikler</h2>
+            <p>Bu hizmet şartları zaman zaman güncellenebilir. Önemli değişiklikler kullanıcılara e-posta ile bildirilir.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Uygulanacak Hukuk</h2>
+            <p>Bu sözleşme Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklar İstanbul mahkemelerinde görülür.</p>
+        </div>
 
         <div class="contact-info">
-            <h2>14. İletişim</h2>
-            <p><strong>Hizmet Sağlayıcı:</strong> Adorb AI Agent Project</p>
+            <h2>İletişim Bilgileri</h2>
             <p><strong>E-posta:</strong> eminaydan@adworld.com.tr</p>
-            <p><strong>Hukuki Sorular:</strong> eminaydan@adworld.com.tr</p>
-            <p>Hizmet şartları ile ilgili sorularınızı yukarıdaki iletişim bilgilerinden bize iletebilirsiniz.</p>
+            <p><strong>Şirket:</strong> AdOrb Digital Solutions</p>
+            <p><strong>Adres:</strong> İstanbul, Türkiye</p>
         </div>
 
-        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ecf0f1;">
-        <p style="text-align: center; color: #7f8c8d; font-size: 0.9em;">
-            © 2025 Adorb AI Agent Project - Tüm hakları saklıdır.
-        </p>
+        <div class="date">
+            Son Güncelleme: 29 Ağustos 2025
+        </div>
     </div>
 </body>
 </html>
